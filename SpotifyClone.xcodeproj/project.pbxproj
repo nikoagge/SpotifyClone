@@ -30,6 +30,8 @@
 		1795AA2226D4FF2D00D93FBA /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1795AA2126D4FF2D00D93FBA /* Artist.swift */; };
 		1795AA2426D4FF3700D93FBA /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1795AA2326D4FF3700D93FBA /* UserProfile.swift */; };
 		1795AA2726D5030200D93FBA /* ViewControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1795AA2626D5030200D93FBA /* ViewControllerType.swift */; };
+		1795AA2926D5347700D93FBA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1795AA2826D5347700D93FBA /* Constants.swift */; };
+		1795AA2C26D555D400D93FBA /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1795AA2B26D555D400D93FBA /* UIViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		1795AA2126D4FF2D00D93FBA /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		1795AA2326D4FF3700D93FBA /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		1795AA2626D5030200D93FBA /* ViewControllerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerType.swift; sourceTree = "<group>"; };
+		1795AA2826D5347700D93FBA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1795AA2B26D555D400D93FBA /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 		1748FA7E26D4D485008C7A0D /* SpotifyClone */ = {
 			isa = PBXGroup;
 			children = (
+				1795AA2A26D551F700D93FBA /* Extensions */,
 				1795AA2526D502F400D93FBA /* Enums */,
 				1748FA9826D4D5A0008C7A0D /* Resources */,
 				1748FA9726D4D592008C7A0D /* Managers */,
@@ -151,6 +156,7 @@
 			children = (
 				1748FA7F26D4D485008C7A0D /* AppDelegate.swift */,
 				1748FA8126D4D485008C7A0D /* SceneDelegate.swift */,
+				1795AA2826D5347700D93FBA /* Constants.swift */,
 				1748FA8826D4D486008C7A0D /* Assets.xcassets */,
 				1748FA8D26D4D486008C7A0D /* Info.plist */,
 			);
@@ -188,6 +194,14 @@
 				1795AA2626D5030200D93FBA /* ViewControllerType.swift */,
 			);
 			path = Enums;
+			sourceTree = "<group>";
+		};
+		1795AA2A26D551F700D93FBA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1795AA2B26D555D400D93FBA /* UIViewExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1795AA0426D4F54300D93FBA /* SearchViewController.swift in Sources */,
+				1795AA2926D5347700D93FBA /* Constants.swift in Sources */,
 				1795AA1E26D4F91C00D93FBA /* Playlist.swift in Sources */,
 				1795AA1826D4F8A800D93FBA /* AuthManager.swift in Sources */,
 				1795AA1626D4F87F00D93FBA /* SearchResultsViewController.swift in Sources */,
@@ -278,6 +293,7 @@
 				1795AA1426D4F85300D93FBA /* PlaylistViewController.swift in Sources */,
 				1748FA8226D4D485008C7A0D /* SceneDelegate.swift in Sources */,
 				1795AA1226D4F83E00D93FBA /* PlayerViewController.swift in Sources */,
+				1795AA2C26D555D400D93FBA /* UIViewExtension.swift in Sources */,
 				1795AA1A26D4F8BF00D93FBA /* APICaller.swift in Sources */,
 				1795AA0E26D4F80B00D93FBA /* SettingsViewController.swift in Sources */,
 				1795AA2726D5030200D93FBA /* ViewControllerType.swift in Sources */,
